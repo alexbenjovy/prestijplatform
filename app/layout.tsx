@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { ReactNode } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { createClient } from "@/app/lib/supabase/client";
+import { createClient } from "@supabase/supabase-js";
 
 export default function DashboardLayout({
   children,
